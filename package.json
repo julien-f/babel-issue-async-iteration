@@ -1,0 +1,16 @@
+{
+  "babel": {
+    "plugins": [
+      "@babel/plugin-proposal-async-generator-functions"
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "7.0.0-rc.1",
+    "@babel/core": "7.0.0-rc.1",
+    "@babel/plugin-proposal-async-generator-functions": "7.0.0-rc.1"
+  },
+  "main": "./dist/",
+  "scripts": {
+    "build": "babel -d ./dist/ ./src/"
+  }
+}
